@@ -30,7 +30,7 @@ const App = () => {
     };
     try {
       const response = await fetch(
-        "https://karolisgpt.onrender.com/",
+        "https://karolisgpt.onrender.com/1",
         options
       );
       const data = await response.json();
