@@ -30,7 +30,7 @@ const App = () => {
     };
     try {
       const response = await fetch(
-        "http://localhost:8000/completions",
+        "https://karolisgpt.onrender.com/",
         options
       );
       const data = await response.json();
